@@ -3,6 +3,7 @@ package com.compi.builder;
 /**
  * Builder temporary holds data until we tell it to build()
  * We could use Builder Constructor to force filling in some of the properties
+ * Builder could be a separate class instead of static inner class
  */
 public class LunchOrder {
 
