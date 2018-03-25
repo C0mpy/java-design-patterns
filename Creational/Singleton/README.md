@@ -1,8 +1,8 @@
 # Singleton
 ## Creational Pattern
-- only one instance is created
-- guarantees control of a resource
-- usually lazily loaded
+- Only one instance is created
+- Guarantees control of a resource
+- Usually lazily loaded
 
 ## Examples:
 - Runtime Environment
@@ -10,16 +10,17 @@
 - Spring Beans - by default
 - Graphic Managers
 
+## Design:
+
 ![alt text](https://i.imgur.com/HoSiiqh.png "Singleton UML Diagram")
 
-- Class is responsible for lifecycle
-- Static in nature
+- Singleton is responsible for creating itself and managing its lifecycle
+- Static in nature but typically not implemented using static class
 - Always returns the same instance
 - Needs to be Thread-Safe
-- Private instance
-- Private Constructor
-- No parameters required for construction
-- No Interface
+- Private instance within Singleton
+- Private Constructor - we want Singleton to call the constructor and nobody else
+- No parameters required for construction - if you require parameters, you need a Factory Pattern
 
 ## Pitfalls
 - Difficult to Unit-Test
