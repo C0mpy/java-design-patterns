@@ -10,7 +10,6 @@
 - ResourceBundle
 - NumberFormat
 
-
 ## Design
 ![alt text](https://i.imgur.com/JOAIqx6.png "Factory Method UML Diagram")
 
@@ -19,4 +18,7 @@
 - Factories will reference multiple concrete classes, but the clien is unaware
 - Method to request an object is typically paramethrized, these parameters determine the concrete type
 
+## Pitfalls
+- Complexity
+- Not refactored into, you need to decide in the start that you'll be using it
 
