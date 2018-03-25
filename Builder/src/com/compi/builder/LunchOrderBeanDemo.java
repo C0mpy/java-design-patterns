@@ -1,10 +1,10 @@
 package com.compi.builder;
 
-public class LunchOrederBeanDemo {
+public class LunchOrderBeanDemo {
 
     public static void main(String[] args) {
 
-        LunchOrederBean lunchOrederBean = new LunchOrederBean();
+        LunchOrderBean lunchOrederBean = new LunchOrderBean();
 
         lunchOrederBean.setBread("Wheat");
         lunchOrederBean.setCondiments("Lettuce");

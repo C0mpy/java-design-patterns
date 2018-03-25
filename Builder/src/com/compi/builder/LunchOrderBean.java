@@ -1,18 +1,15 @@
 package com.compi.builder;
 
-public class LunchOrederBean {
+/**
+ * When working Beans we should use Getters and Setters to set values to the properties
+ * Properties don't have to be Set, some could be Set some could be null
+ */
+public class LunchOrderBean {
 
     private String bread;
     private String condiments;
     private String dressing;
     private String meat;
-
-    public LunchOrederBean(String bread, String condiments, String dressing, String meat) {
-        this.bread = bread;
-        this.condiments = condiments;
-        this.dressing = dressing;
-        this.meat = meat;
-    }
 
     public String getBread() {
         return bread;
