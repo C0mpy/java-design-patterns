@@ -14,6 +14,11 @@
 
 ![alt text](https://i.imgur.com/JOAIqx6.png "Factory Method UML Diagram")
 
+- Website class is superclass for Blog and Shop
+- Client interacts with WebsiteFactory
+- WebsiteFactory has getWebsite method that receives WebsiteType and returns appropriate website instance
+- Client expects Website object but receives Website's subclass
+
 - Factory is responsible for creating instances
 - Objects created are referenced through the common inteface
 - Factories will reference multiple concrete classes, but the client is unaware because he interact through the common interface
